@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://p2-isw034-backend.onrender.com";
 interface Aluno {
   nome_completo: string;
   usuario_acesso: string;
